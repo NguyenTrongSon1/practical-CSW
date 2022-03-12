@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="practical-CSW:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>practical-CSW</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="practical-CSW-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="practical-CSW:war exploded" />
+    </root>
+  </artifact>
+</component>
